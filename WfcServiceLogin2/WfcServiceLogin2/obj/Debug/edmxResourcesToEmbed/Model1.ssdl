@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="RegistrationModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'C:\USERS\ANSHG\SOURCE\REPOS\WFCSERVICELOGIN2\WFCSERVICELOGIN2\APP_DATA\REGISTRATION.MDF.dbo.tb_emp' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tb_emp">
+    <Key>
+      <PropertyRef Name="u_name" />
+      <PropertyRef Name="u_pass" />
+      <PropertyRef Name="u_empid" />
+    </Key>
+    <Property Name="u_name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="u_pass" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="u_empid" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="RegistrationModelStoreContainer">
+    <EntitySet Name="tb_emp" EntityType="Self.tb_emp" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tb_emp].[u_name] AS [u_name], 
+    [tb_emp].[u_pass] AS [u_pass], 
+    [tb_emp].[u_empid] AS [u_empid]
+    FROM [dbo].[tb_emp] AS [tb_emp]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

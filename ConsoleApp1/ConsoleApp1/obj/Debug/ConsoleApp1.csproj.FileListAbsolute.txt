@@ -1,0 +1,17 @@
+C:\Users\anshg\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\anshg\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\anshg\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\anshg\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\anshg\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\anshg\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\anshg\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\anshg\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\WebApplicationLoginWcf.dll
+C:\Users\anshg\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\WfcServiceLogin2.dll
+C:\Users\anshg\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+C:\Users\anshg\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\WebApplicationLoginWcf.pdb
+C:\Users\anshg\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\WebApplicationLoginWcf.dll.config
+C:\Users\anshg\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\WfcServiceLogin2.pdb
+C:\Users\anshg\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\WfcServiceLogin2.dll.config
+C:\Users\anshg\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
+C:\Users\anshg\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\anshg\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

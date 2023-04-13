@@ -1,0 +1,12 @@
+C:\Users\anshg\source\repos\WfcServiceLogin2\WfcServiceLogin2\bin\WfcServiceLogin2.dll.config
+C:\Users\anshg\source\repos\WfcServiceLogin2\WfcServiceLogin2\bin\WfcServiceLogin2.dll
+C:\Users\anshg\source\repos\WfcServiceLogin2\WfcServiceLogin2\bin\WfcServiceLogin2.pdb
+C:\Users\anshg\source\repos\WfcServiceLogin2\WfcServiceLogin2\obj\Debug\WfcServiceLogin2.csproj.AssemblyReference.cache
+C:\Users\anshg\source\repos\WfcServiceLogin2\WfcServiceLogin2\obj\Debug\WfcServiceLogin2.csproj.CoreCompileInputs.cache
+C:\Users\anshg\source\repos\WfcServiceLogin2\WfcServiceLogin2\obj\Debug\WfcServiceLogin2.dll
+C:\Users\anshg\source\repos\WfcServiceLogin2\WfcServiceLogin2\obj\Debug\WfcServiceLogin2.pdb
+C:\Users\anshg\source\repos\WfcServiceLogin2\WfcServiceLogin2\bin\EntityFramework.dll
+C:\Users\anshg\source\repos\WfcServiceLogin2\WfcServiceLogin2\bin\EntityFramework.SqlServer.dll
+C:\Users\anshg\source\repos\WfcServiceLogin2\WfcServiceLogin2\bin\EntityFramework.xml
+C:\Users\anshg\source\repos\WfcServiceLogin2\WfcServiceLogin2\bin\EntityFramework.SqlServer.xml
+C:\Users\anshg\source\repos\WfcServiceLogin2\WfcServiceLogin2\obj\Debug\WfcServiceLogin2.csproj.CopyComplete

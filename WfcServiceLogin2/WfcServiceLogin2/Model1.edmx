@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="RegistrationModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'C:\USERS\ANSHG\SOURCE\REPOS\WFCSERVICELOGIN2\WFCSERVICELOGIN2\APP_DATA\REGISTRATION.MDF.dbo.tb_emp' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="tb_emp">
+          <Key>
+            <PropertyRef Name="u_name" />
+            <PropertyRef Name="u_pass" />
+            <PropertyRef Name="u_empid" />
+          </Key>
+          <Property Name="u_name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="u_pass" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="u_empid" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="RegistrationModelStoreContainer">
+          <EntitySet Name="tb_emp" EntityType="Self.tb_emp" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [tb_emp].[u_name] AS [u_name], 
+    [tb_emp].[u_pass] AS [u_pass], 
+    [tb_emp].[u_empid] AS [u_empid]
+    FROM [dbo].[tb_emp] AS [tb_emp]</DefiningQuery>
+          </EntitySet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="RegistrationModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="tb_emp">
+          <Key>
+            <PropertyRef Name="u_name" />
+            <PropertyRef Name="u_pass" />
+            <PropertyRef Name="u_empid" />
+          </Key>
+          <Property Name="u_name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="u_pass" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="u_empid" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="RegistrationEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="tb_emp" EntityType="Self.tb_emp" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="RegistrationModelStoreContainer" CdmEntityContainer="RegistrationEntities">
+          <EntitySetMapping Name="tb_emp">
+            <EntityTypeMapping TypeName="RegistrationModel.tb_emp">
+              <MappingFragment StoreEntitySet="tb_emp">
+                <ScalarProperty Name="u_name" ColumnName="u_name" />
+                <ScalarProperty Name="u_pass" ColumnName="u_pass" />
+                <ScalarProperty Name="u_empid" ColumnName="u_empid" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
